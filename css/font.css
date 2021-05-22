@@ -1,0 +1,45 @@
+body, textarea {
+    font-family: proxima-nova, -appel-system, sans-serif;
+    color: #DDD;
+    overflow-x: hidden;
+}
+
+.separator {
+    position: relative;
+    margin: 20px 0;
+    text-align: center;
+    color: inherit;
+}
+    .separator:before {
+        content: '';
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin: 10px 0;
+        width: 80px;
+        height: 2px;
+        background-color: #555;
+    
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+
+h1 {
+    font-size: 2.5rem;
+}
+  
+h2 {
+    font-size: 2rem;
+}
+  
+h3 {
+    font-size: 1.375rem;
+}
+  
+p {
+    font-size: 1rem;
+    font-weight: 200;
+    line-height: 1.8;
+}
